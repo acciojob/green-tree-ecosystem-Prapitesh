@@ -8,10 +8,12 @@ public class Ecosystem {
 
     public Ecosystem() {
         // your code goes here
+        this.trees = new ArrayList<>();
     }
 
     public void addTree(Tree tree) {
         // your code goes here
+        trees.add(tree);
     }
 
     public List<Tree> getTrees() {
